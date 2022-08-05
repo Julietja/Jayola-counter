@@ -1,0 +1,90 @@
+*{
+box-sizing: border-box;
+}
+
+body{
+ background: lightgreen;
+ text-align: center;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 700;
+}
+
+#container{
+ background: white;
+ height: 65%;
+ width: 70%;
+ position: absolute;
+ top: 80px;
+ margin-right: 15%;
+ margin-left: 15%;
+ padding: 0.6em;
+ box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.4);
+}
+
+h1{
+ margin-top: 30px;
+ font-weight: 800;
+ font-size: 1.8em;
+}
+
+#count{
+ font-weight: 800;
+ font-size: 3em;
+ margin-top: 30px;
+}
+button{
+ width: 120px;
+ padding: 10px 20px;
+ border: none;
+ border-radius: 4px;
+ margin: auto;
+ display: block;
+ box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.2);
+ color: white;
+ font-weight: 800;
+}
+#take-count{
+ margin-bottom: 10px;
+ background: red;
+}
+
+#take-count:hover{
+ background: white;
+ color: red;
+ border: 2px solid red;
+ cursor: pointer;
+}
+
+#save-count{
+ background: green;
+ margin-bottom: 30px;
+ cursor: pointer;
+}
+
+#save-count:hover{
+ background: white;
+ color: green;
+ border: 2px solid green;
+}
+#show{
+ margin-bottom: 10px;
+}
+
+/*settins for iPad screen*/
+
+@media only screen and (min-width: 600px) {
+ body {
+   background-color:  limegreen;
+ }
+}
+
+/*settins for PC screen*/
+@media only screen and (min-width: 769px) {
+ body {
+   background-color: rgb(10, 120, 0);;
+   
+ }
+}
+
+
+
