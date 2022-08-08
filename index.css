@@ -70,19 +70,31 @@ button{
  margin-bottom: 10px;
 }
 
-/*settins for iPad screen*/
-
-@media only screen and (min-width: 600px) {
+/*settings for PC screen*/
+@media only screen and (min-width: 800px) {
  body {
-   background-color:  limegreen;
+   background-color: rgb(10, 120, 0);
+ }
+ #container{
+  width: 50%;
+  position: absolute;
+  top: 80px;
+  margin-right: 25%;
+  margin-left: 25%;
+  
  }
 }
-
-/*settins for PC screen*/
-@media only screen and (min-width: 769px) {
+/*settings for larger screen*/
+@media only screen and (min-width: 1020px) {
  body {
-   background-color: rgb(10, 120, 0);;
-   
+   background-color: rgb(8, 73, 2);
+ }
+ #container{
+  width: 40%;
+  position: absolute;
+  top: 80px;
+  margin-right: 30%;
+  margin-left: 30%;
  }
 }
 
