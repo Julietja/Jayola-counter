@@ -1,4 +1,5 @@
-# Title: Jayola Counter
+# Title
+Jayola Counter
 
 # About
 
